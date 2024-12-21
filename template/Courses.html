@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/Courses.css' %}">
+</head>
+<body>
+    <div id="navbar">
+        <img src="https://ik.imagekit.io/sheryians/Sheryians_logo_EzwgcppnD" alt="">
+        <span id="heading1">Sheryians coding school</span>
+        <a href="{% url 'karthik:home' %}" class="buttons" id="home_button">Home</a>
+        <a href="{% url 'karthik:courses' %}" class="buttons" id="courses_button">Courses</a>
+        <a href="{% url 'karthik:bootcamp' %}" class="buttons" id="bootcamp_button">Bootcamp(Kodr)</a>
+        <a href="{% url 'karthik:requestcallback' %}" class="buttons" id="request_button">Request Callback</a>
+        <button class="buttons" id="signin_button">Sign In</button>
+    </div>
+
+    <div id="center_text"><span class="center_text_design">We'r not a <span id="text">course</span><br><span  id="text2">factory.</span></span></div>
+    <span id="text3">We focus on courses that really help.</span><br>
+
+    <div id="text4_div"><span id="text4">Courses which do work |</span></div>
+
+    <h1 id="heading2">Courses Offered.</h1>
+    <div id="card1"></div>
+    <div id="card2"></div>
+    <div id="card3"></div>
+    <div id="card4"></div>
+    <div id="card5"></div>
+    <button id="detail" class="details">View Details</button>
+    <button class="details">View Details</button>
+    <button class="details">View Details</button>
+    <button class="details">View Details</button>
+    <button class="details" id="detail5">View Details</button>
+    <div id="companies">Top <span id="diff">companies</span> our students working with</div>
+
+<!-- fotter -->
+
+<div id="footer_container">
+    <img id="logo" src="https://ik.imagekit.io/sheryians/Sheryians_logo_EzwgcppnD" alt="">
+    <div id="connect">
+        Let's connect with our socials
+    </div>
+
+    <div id="company">
+        <h1 id="company_heading">COMPANY</h1>
+        About Us <br> Support <br> Privacy Policy <br> Terms and Condition Pricing and Refund Hire From Us <br>Bug Bounty 
+    </div>
+
+    <div id="community">
+        <h1 id="community_heading">COMMUNITY</h1>
+        Inertia <br>
+        Discord
+    </div>
+
+    <div id="touch">
+        <h1 id="touch_heading">Get In Touch</h1>
+        +91 8109161752, <br>
+        +91 9691778470
+        hello@sheryians.com
+        23-B,Indrapuri Sector C, Bhopal(MP),462021
+    </div>
+</div>
+
+<div id="copyrights">
+    copyright @ 2024 Sheryians Pvt. Ltd. All Rights Reserved.
+</div>
+</body>
+</html>
