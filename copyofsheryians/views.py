@@ -9,7 +9,7 @@ def courses(request):
     return render(request,'Courses.html')
 
 def bootcamp(request):
-    return render(request,'bootcamp.html')
+    return render(request,'Bootcamp.html')
 
 def requestcallback(request):
     return render(request,'RequestCallBack.html')
